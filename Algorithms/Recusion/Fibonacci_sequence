@@ -1,0 +1,30 @@
+//Recusion寫法:
+
+int fib(int n)
+{
+  if(n == 1)
+    return 1;
+  else if(n == 2)
+    return 1;
+  else // two recursive calls
+    return (fib(n-1) + fib(n-2));
+}
+
+
+//Iteration 寫法:
+
+double fibRepetitive(int n)
+{
+  if(n == 1 || n == 2)
+    return 1;
+
+int fib1 = 1, fib2 = 1;
+int fib3 = 0;
+for(int i = 2; i < n; i++)
+{
+  fib3 = fib1 + fib2;
+  fib1 = fib2;
+  fib2 = fib3;
+}
+return fib3;
+}
