@@ -7,7 +7,7 @@ void reverseArray(vector<int>& arr) {
     // 獲取陣列的長度
     int length = arr.size();
 
-    // 只迭代陣列的一半，因為我們正在交換兩端的元素
+    // 只代陣列的一半，因為是交換兩端的元素
     for (int i = 0; i < length / 2; ++i) {
         // 交換陣列開始和結尾的元素
         swap(arr[i], arr[length - i - 1]);
@@ -17,12 +17,6 @@ void reverseArray(vector<int>& arr) {
 int main() {
     // 範例使用：
     vector<int> myArray = {1, 2, 3, 4, 5};
-    
-    cout << "原始陣列:";
-    for (const auto& element : myArray) {
-        cout << " " << element;
-    }
-    cout << endl;
 
     reverseArray(myArray);
 
