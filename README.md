@@ -8,5 +8,6 @@
   -  資結5.(B) [反轉矩陣](./NSYSU/110/reverseArray.cpp)
   -  資結5.(C) [階層](./NSYSU/110/factorial.cpp)
   -  資結6.(E) [用BFS在graph搜索](./NSYSU/110/bfs_graph.py)  
-     find (list) all connected components of a graph. -> 可用DFS或BFS
+     find (list) all connected components of a graph. -> 可用DFS或BFS  
+     (這用c++不好寫所以我用python) 
 </details>
