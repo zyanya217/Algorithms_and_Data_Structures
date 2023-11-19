@@ -1,5 +1,4 @@
 # Algorithms_and_Data_Structures
-資管所準備考研練習題/用c++解
 
 ## 中山
 <details>
@@ -11,3 +10,9 @@
      find (list) all connected components of a graph. -> 可用DFS或BFS  
      (這用c++不好寫所以我用python) 
 </details>
+
+## 結語
+本人沒補習 受到許多網路上提供免費考研資源與文章的幫助
+希望這些也能幫助到未來要考資管所的人
+以上皆為自己打的，若內容有務歡迎與我聯繫修正
+祝福大家都能上理想的學校~~
