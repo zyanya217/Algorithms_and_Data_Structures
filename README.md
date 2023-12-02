@@ -4,6 +4,7 @@
 112年
   -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
   -  資結3.(b) [費氏數列(非遞迴版)](./NCU/112/fibonacci_nonrecursive.cpp)
+  -  資結7.(b) [Quick Sort(c語言)](./NCU/112/Quick_Sort.c)
 
 
 ## 中山
