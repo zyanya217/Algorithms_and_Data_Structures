@@ -1,5 +1,15 @@
 # Algorithms_and_Data_Structures
 
+## 中央
+<details>
+  <summary>112年</summary>
+ 
+  -  資結3.(a) [費氏數列(遞迴版)](./NSYSU/110/reverseArray.cpp)
+  -  資結3.(b) [費氏數列(非遞迴版)](./NSYSU/110/factorial.cpp)
+
+</details>
+
+
 ## 中山
 <details>
   <summary>110年</summary>
