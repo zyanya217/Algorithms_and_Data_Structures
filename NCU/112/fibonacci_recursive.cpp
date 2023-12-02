@@ -1,16 +1,19 @@
 #include <iostream>
 
-int Fibonacci(int n) {
-    return (n <= 1) ? n : Fibonacci(n - 1) + Fibonacci(n - 2);
+int Fib(int n) {
+     if (n <= 1)
+        return n;
+    else
+        return Fib(n - 1) + Fib(n - 2);
 }
 
-void printFibonacci(int limit) {
-    for (int i = 0; Fibonacci(i) < limit; ++i)
-        std::cout << Fibonacci(i) << " ";
+void printFib(int limit) {
+    for (int i = 0; Fib(i) < limit; ++i)
+        std::cout << Fib(i) << " ";
 }
 
 int main() {
     int limit = 1000;
-    printFibonacci(limit);
+    printFib(limit);
     return 0;
 }
