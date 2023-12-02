@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// C語言沒內建的swap函數
+// C語言沒內建swap函數
 void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
@@ -9,25 +9,32 @@ void swap(int *a, int *b) {
 
 // 函數：分區（Partitioning），返回 pivot 的最終位置
 int partition(int arr[], int low, int high) {
-    // 選擇第一個元素作為 pivot
     int pivot = arr[low];
-    int i = low + 1; // 指向左分區的結尾
+    int i = low + 1;  // 指向左分區的結尾
+    int j = high;     // 指向右分區的結尾
 
-    // 遍歷陣列
-    for (int j = low + 1; j <= high; j++) {
-        // 如果當前元素小於等於 pivot，交換元素位置
-        if (arr[j] <= pivot) {
-            swap(&arr[j], &arr[i]);
+    while (i <= j) {
+        // 向右找到第一個大於 pivot 的元素
+        while (i <= j && arr[i] <= pivot) 
             i++;
+
+        // 向左找到第一個小於 pivot 的元素
+        while (i <= j && arr[j] > pivot) 
+            j--;
+
+        // 如果 i 和 j 還沒相遇，則交換它們指向的元素
+        if (i < j) {
+            swap(&arr[i], &arr[j]);
         }
     }
 
     // 將 pivot 放到正確的位置
-    swap(&arr[low], &arr[i - 1]);
+    swap(&arr[low], &arr[j]);
 
     // 返回 pivot 的最終位置
-    return i - 1;
+    return j;
 }
+
 
 // 函數：快速排序
 void quickSort(int arr[], int low, int high) {
@@ -41,14 +48,6 @@ void quickSort(int arr[], int low, int high) {
     }
 }
 
-// 函數：打印陣列
-void printArray(int arr[], int size) {
-    for (int i = 0; i < size; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-}
-
 
 int main() {
     int arr[] = {75, 40, 61, 23, 54, 12, 98, 86};
@@ -57,7 +56,11 @@ int main() {
     // 執行快速排序
     quickSort(arr, 0, size - 1);
 
-    printArray(arr, size);
+    // 打印排序後的陣列
+    for (int i = 0; i < size; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 
     return 0;
 }
