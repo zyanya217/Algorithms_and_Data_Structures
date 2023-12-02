@@ -4,7 +4,7 @@
 <details>
   <summary>112年</summary>
  
-  -  資結3.(a) [費氏數列(遞迴版)](./NSYSU/110/reverseArray.cpp)
+  -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
   -  資結3.(b) [費氏數列(非遞迴版)](./NSYSU/110/factorial.cpp)
 
 </details>
