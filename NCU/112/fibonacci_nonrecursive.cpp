@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void printFib(int limit) {
+void Fib(int limit) {
     int fib1 = 0, fib2 = 1, nextFib;
     while (fib1 < limit) {
         cout << fib1 << " ";
@@ -13,6 +13,6 @@ void printFib(int limit) {
 
 int main() {
     int limit = 1000;
-    printFib(limit);
+    Fib(limit);
     return 0;
 }
