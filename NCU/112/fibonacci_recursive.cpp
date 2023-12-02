@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int Fib(int n) {
      if (n <= 1)
@@ -9,7 +10,7 @@ int Fib(int n) {
 
 void printFib(int limit) {
     for (int i = 0; Fib(i) < limit; ++i)
-        std::cout << Fib(i) << " ";
+        cout << Fib(i) << " ";
 }
 
 int main() {
