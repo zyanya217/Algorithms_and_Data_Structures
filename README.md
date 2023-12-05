@@ -5,8 +5,10 @@
   -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
   -  資結3.(b) [費氏數列(非遞迴版)](./NCU/112/fibonacci_nonrecursive.cpp)
   -  資結7.(b) [Quick Sort(c語言)](./NCU/112/Quick_Sort.c)
-
-
+111年
+  -  計概11 [ANGLE BETWEEN HANDS OF A CLOCK ](./NCU/112/ )
+  -  資結8 [Insertion Sort(c語言)](./NCU/112/)
+  
 ## 中山
 
 110年
