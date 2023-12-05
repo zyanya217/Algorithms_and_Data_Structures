@@ -11,8 +11,8 @@
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
 110年
-  -  計概11 [Palindrome](./NCU/110/Palindrome.c) 還沒寫
-     以recursion改寫題目給的迴文程式碼
+  -  計概11 [Palindrome](./NCU/110/Palindrome.java)    
+     以recursion改寫題目給的迴文java程式碼
      
 ## 中山
 
