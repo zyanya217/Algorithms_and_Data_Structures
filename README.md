@@ -9,6 +9,8 @@
 111年  
   -  計概11 [ANGLE BETWEEN HANDS OF A CLOCK ](./NCU/112/ ) 還沒寫
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/112/Insertion_Sort_with_binary_search.c)
+110年
+  -  計概11 [以recursion改寫題目迴文程式](./NCU/112/Palindrome.c) 還沒寫
   
 ## 中山
 
