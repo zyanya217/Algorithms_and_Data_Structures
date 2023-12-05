@@ -8,7 +8,7 @@
 
 111年  
   -  計概11 [ANGLE BETWEEN HANDS OF A CLOCK ](./NCU/112/ )
-  -  資結8 [Insertion Sort(c語言)](./NCU/112/)
+  -  資結8 [Insertion Sort with binary search(c語言)](./NCU/112/)
   
 ## 中山
 
