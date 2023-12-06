@@ -7,7 +7,7 @@
   -  資結7.(b) [Quick Sort(c語言)](./NCU/112/Quick_Sort.c)  
 
 111年  
-  -  計概11 [Angle Between Hands of a Clock](./NCU/111/Angle_Between_Hands_of_Clock.java) 還沒寫
+  -  計概11 [Angle Between Hands of a Clock](./NCU/111/Angle_Between_Hands_of_Clock.java)
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
 110年
@@ -21,7 +21,7 @@
   -  資結5.(C) [階層](./NSYSU/110/factorial.cpp)
   -  資結6.(E) [用BFS在graph搜索](./NSYSU/110/bfs_graph.py)  
      find (list) all connected components of a graph. -> 可用DFS或BFS  
-     (這用c++不好寫所以我用python) 
+     (這用c++不好寫所以用python) 
 
 ## 結語
 本人沒補習 受到許多網路上提供免費考研資源與文章的幫助  
