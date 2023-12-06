@@ -7,7 +7,7 @@
   -  資結7.(b) [Quick Sort(c語言)](./NCU/112/Quick_Sort.c)  
 
 111年  
-  -  計概11 [ANGLE BETWEEN HANDS OF A CLOCK ](./NCU/111/ ) 還沒寫
+  -  計概11 [Angle Between Hands of a Clock](./NCU/111/ ) 還沒寫
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
 110年
