@@ -9,11 +9,7 @@
 111年  
   -  計概11 [Angle Between Hands of a Clock](./NCU/111/Angle_Between_Hands_of_Clock.java)  
      這題和LeetCode中級的第1344題一樣  
-     角度計算方法參考[youtubeu影片](https://www.youtube.com/watch?v=zBCsKSFRRYY&ab_channel=CrackingFAANG)他講得很清楚  
-     這個程式的class diagram(題目要求要畫的):  
-     <img width="400" alt="螢幕擷取畫面 2023-12-06 114030" src="https://github.com/zyanya217/Data_Structures/assets/83296460/8858feed-47eb-443b-8720-b7bbf94b242e">
-
-       
+     角度計算方法參考[youtubeu影片](https://www.youtube.com/watch?v=zBCsKSFRRYY&ab_channel=CrackingFAANG)他講得很清楚    
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
 110年
