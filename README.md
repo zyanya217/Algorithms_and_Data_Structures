@@ -15,7 +15,8 @@
 110年
   -  資結3.(b) [Singly Linked List(c語言)](./NCU/110/Singly_Linked_List.c)   還沒寫  
   -  資結3.(b) [Doubly Linked List(c語言)](./NCU/110/Doubly_Linked_List.c)   還沒寫  
-     功能:Inserting Head  
+     功能:Inserting Head
+  -  資結4.(b) [pre/in/post-order traversal(c語言)](./NCU/110/traversal.c)    
 
 109年
   -  計概11 [Palindrome](./NCU/109/Palindrome.java)
