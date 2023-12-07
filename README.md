@@ -13,8 +13,7 @@
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
 110年
-  -  資結3.(b) [Singly Linked List(c語言)](./NCU/110/Singly_Linked_List.c)   還沒寫  
-  -  資結3.(b) [Doubly Linked List(c語言)](./NCU/110/Doubly_Linked_List.c)   還沒寫  
+  -  資結3.(b) [Singly/Doubly Linked List(c語言)](./NCU/110/Insert_Head_Linked_List.c)
      功能:Inserting Head
   -  資結4.(b) [pre/in/post-order traversal(c語言)](./NCU/110/traversal.c)    
 
