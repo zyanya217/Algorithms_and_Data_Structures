@@ -12,10 +12,16 @@
      角度計算方法參考[youtubeu影片](https://www.youtube.com/watch?v=zBCsKSFRRYY&ab_channel=CrackingFAANG)他講得很清楚    
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
-110年
-  -  計概11 [Palindrome](./NCU/110/Palindrome.java)
+
+109年
+  -  計概11 [Palindrome](./NCU/109/Palindrome.java)
      以recursion改寫題目給的迴文java程式碼
-  -  資結6.(a) [hanoi(c語言)](./NCU/110/hanoi.c)
+  -  資結6.(a) [hanoi(c語言)](./NCU/109/hanoi.c)
+
+110年
+  -  資結3.(b) [Singly Linked List(c語言)](./NCU/110/Singly_Linked_List.c)
+  -  資結3.(b) [Doubly Linked List(c語言)](./NCU/110/Doubly_Linked_List.c)
+     功能:Inserting Head 
   
 108年  
   -  計概6 [DateCalculator](./NCU/108/DateCalculator.java)
