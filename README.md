@@ -26,6 +26,7 @@
   -  計概6 [DateCalculator](./NCU/108/DateCalculator.java)
      
 ## 中山
+很少考程式題  
 
 110年
   -  資結5.(B) [反轉矩陣](./NSYSU/110/reverseArray.cpp)
