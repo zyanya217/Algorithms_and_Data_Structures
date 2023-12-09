@@ -7,23 +7,25 @@
   -  資結7.(b) [Quick Sort(c語言)](./NCU/112/Quick_Sort.c)  
 
 111年  
-  -  計概11 [Angle Between Hands of a Clock](./NCU/111/Angle_Between_Hands_of_Clock.java)  
-     這題和LeetCode中級的第1344題一樣  
+  -  計概11 [時針和分針的夾角](./NCU/111/Angle_Between_Hands_of_Clock.java)  
+     LeetCode中級的第1344題Angle Between Hands of a Clock  
      角度計算方法參考[youtubeu影片](https://www.youtube.com/watch?v=zBCsKSFRRYY&ab_channel=CrackingFAANG)他講得很清楚    
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
 110年
-  -  資結3.(b) [Singly/Doubly Linked List(c語言)](./NCU/110/Insert_Head_Linked_List.c)
+  -  資結3.(b) [Singly/Doubly Linked List(c語言)](./NCU/110/Insert_Head_Linked_List.c)  
      功能:Inserting Head
   -  資結4.(b) [pre/in/post-order traversal(c語言)](./NCU/110/traversal.c)    
 
 109年
-  -  計概11 [Palindrome](./NCU/109/Palindrome.java)
+  -  計概11 [迴文](./NCU/109/Palindrome.java)  
      以recursion改寫題目給的迴文java程式碼
-  -  資結6.(a) [hanoi(c語言)](./NCU/109/hanoi.c)
+  -  資結6.(a) [河內塔(c語言)](./NCU/109/hanoi.c)
   
 108年  
-  -  計概6 [DateCalculator](./NCU/108/DateCalculator.java)
+  -  計概6 [兩日期間隔天數](./NCU/108/DateCalculator.java)
+  -  資結4 [the_kth_smallest_in_array](./NCU/108/the_kth_smallest_in_array.c)  
+     題目要求:c語言/非遞迴/不可排序  
      
 ## 中山
 很少考程式題  
