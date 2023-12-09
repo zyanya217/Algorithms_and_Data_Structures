@@ -24,7 +24,7 @@
   
 108年  
   -  計概6 [兩日期間隔天數](./NCU/108/DateCalculator.java)
-  -  資結4 [the_kth_smallest_in_array](./NCU/108/the_kth_smallest_in_array.c)  
+  -  資結4 [陣列中的第k小值](./NCU/108/the_kth_smallest_in_array.c)  
      題目要求:c語言/非遞迴/不可排序  
      
 ## 中山
