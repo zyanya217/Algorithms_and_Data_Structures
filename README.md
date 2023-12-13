@@ -2,7 +2,7 @@
 
 ## 成大
 111年 
-  -  計概A-2(三) [二元搜尋(遞迴)](./NCKU/111/binary_search_recursive.cpp)  
+  -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)  
 
 ## 中央
 112年
