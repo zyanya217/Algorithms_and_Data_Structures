@@ -1,5 +1,7 @@
 # Data_Structures(& Algorithms)
-
+⚠️  
+1.  答案僅供參考   
+2.  檔案內程式碼是為了回答試卷問題，所以不一定包含完整程式碼，也可能只有一個function  
 ## 成大
 111年 
   -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
