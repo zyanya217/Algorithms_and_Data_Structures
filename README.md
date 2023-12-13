@@ -3,7 +3,7 @@
 ## 成大
 111年 
   -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
-  -  資結A-3[ ](./NCKU/111/ )
+  -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 必須O(n) time
 
 ## 中央
 112年
