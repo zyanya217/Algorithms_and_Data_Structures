@@ -1,30 +1,23 @@
-#include <iostream>
-using namespace std;
+void rearrangeArray(vector<int>& arr) {
+    int n = arr.size();
+    int low = 0;         // 低指標，用於處理負數部分
+    int high = n - 1;     // 高指標，用於處理正數部分
+    int i = 0;            // 遍歷指標
 
-// 重排陣列函數 
-//答案紙上寫這個方法就好，main()是為了測試是否正常
-void rearrange(int arr[], int n) {
-  int j = 0; 
-  // 從頭遍歷陣列
-  for (int i = 0; i < n; i++) {
-    if (arr[i] < 0) {  // 當前元素若小於0 
-      if (i != j)  
-        swap(arr[i], arr[j]); // 將其值交換到j指標位置 
-      j++; // j向後移動,指向下一個給負數放的位置
+    // 遍歷整個陣列
+    while (i <= high) {
+        if (arr[i] < 0) {
+            // 如果當前元素是負數，交換到低指標位置，然後移動低指標和遍歷指標
+            swap(arr[i], arr[low]);
+            low++;
+            i++;
+        } else if (arr[i] == 0) {
+            // 如果當前元素是零，只移動遍歷指標
+            i++;
+        } else {
+            // 如果當前元素是正數，交換到高指標位置，然後移動高指標
+            swap(arr[i], arr[high]);
+            high--;
+        }
     }
-  }  
-}
-
-int main() {
-  int arr[] = {1, -2, 0, -3, 4};
-  int n = sizeof(arr) / sizeof(arr[0]);// 計算陣列長度 
-  
-  rearrange(arr, n); // 調用重排函數
-  
-  //印出陣列
-  for (int i = 0; i < n; i++) {
-    cout << arr[i] << " ";   }
-  cout << endl;
-
-  return 0; 
 }
