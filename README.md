@@ -7,6 +7,9 @@
   -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
   -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 必須O(n) time
 
+110年
+  -  資結B-7 [改寫反轉字串](./NCKU/110/ReverseString.cpp)  
+     
 ## 中央
 112年
   -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
