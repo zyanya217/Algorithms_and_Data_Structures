@@ -8,7 +8,7 @@
   -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 必須O(n) time
 
 110年
-  -  資結B-7 [用pointer改寫反轉字串](./NCKU/110/ReverseString.cpp)  
+  -  計概B-7 [用pointer改寫反轉字串](./NCKU/110/ReverseString.cpp)  
      
 ## 中央
 112年
