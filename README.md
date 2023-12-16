@@ -8,7 +8,8 @@
   -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 必須O(n) time
 
 110年
-  -  計概B-7 [用pointer改寫反轉字串](./NCKU/110/ReverseString.cpp)  
+  -  計概B-7 [用pointer改寫反轉字串](./NCKU/110/ReverseString.cpp)
+  -  資結1(b) [歐幾里得演算法](./NCKU/110/euclidean_algorithm.cpp)
      
 ## 中央
 112年
