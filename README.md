@@ -9,7 +9,7 @@
 112年 
   -  計概 問答題七 [矩陣最大值](./NCCU/112/maxLocalGrid)  
      -> LeetCode初級[2373.Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)  
-  -  計概 問答題八 [矩陣最大值](./NCCU/112/Balanced_Strings)  
+  -  計概 問答題八 [拆解成平衡字串](./NCCU/112/Balanced_Strings)  
      -> LeetCode初級[1221.Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)   
 ## 成大NCKU
 111年 
