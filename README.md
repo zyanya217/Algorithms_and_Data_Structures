@@ -4,13 +4,13 @@
 2.  檔案內程式碼是為了回答試卷問題，所以不一定包含完整程式碼，也可能只有一個function
      
 ## 政大NCCU(科技組)
-很愛從LeetCode初級找題目 
+很愛從LeetCode(easy)找題目 
   
 112年 
   -  計概 問答題七 [矩陣最大值](./NCCU/112/maxLocalGrid)  
-     -> LeetCode初級[2373.Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)  
+     -> LeetCode(easy)[2373.Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)  
   -  計概 問答題八 [拆解成平衡字串](./NCCU/112/Balanced_Strings)  
-     -> LeetCode初級[1221.Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)   
+     -> LeetCode(easy)[1221.Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)   
 ## 成大NCKU
 111年 
   -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
@@ -28,7 +28,7 @@
 
 111年  
   -  計概11 [時針和分針的夾角](./NCU/111/Angle_Between_Hands_of_Clock.java)  
-     -> LeetCode中級[1344.Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)   
+     -> LeetCode(medium)[1344.Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)   
      角度計算方法參考[youtubeu影片](https://www.youtube.com/watch?v=zBCsKSFRRYY&ab_channel=CrackingFAANG)講得很清楚    
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
