@@ -1,8 +1,15 @@
 # Data_Structures(& Algorithms)
 ⚠️  
 1.  答案僅供參考   
-2.  檔案內程式碼是為了回答試卷問題，所以不一定包含完整程式碼，也可能只有一個function  
-## 成大
+2.  檔案內程式碼是為了回答試卷問題，所以不一定包含完整程式碼，也可能只有一個function
+     
+## 政大NCCU(科技組)
+112年 
+  -  計概 問答題七 [矩陣最大值](./NCCU/112/maxLocalGrid)  
+     -> LeetCode初級[2373.Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/)
+
+
+## 成大NCKU
 111年 
   -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
   -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 必須O(n) time
@@ -11,7 +18,7 @@
   -  計概B-7 [用pointer改寫反轉字串](./NCKU/110/ReverseString.cpp)
   -  資結1(b) [歐幾里得演算法](./NCKU/110/euclidean_algorithm.cpp)
      
-## 中央
+## 中央NCU
 112年
   -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
   -  資結3.(b) [費氏數列(非遞迴版)](./NCU/112/fibonacci_nonrecursive.cpp)
@@ -19,7 +26,7 @@
 
 111年  
   -  計概11 [時針和分針的夾角](./NCU/111/Angle_Between_Hands_of_Clock.java)  
-     LeetCode中級的第1344題Angle Between Hands of a Clock  
+     -> LeetCode中級[1344.Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)   
      角度計算方法參考[youtubeu影片](https://www.youtube.com/watch?v=zBCsKSFRRYY&ab_channel=CrackingFAANG)他講得很清楚    
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
@@ -38,7 +45,7 @@
   -  資結4 [陣列中的第k小值](./NCU/108/the_kth_smallest_in_array.c)  
      題目要求:c語言/非遞迴/不可排序  
      
-## 中山
+## 中山NSYSU
 很少考寫程式
 
 110年
