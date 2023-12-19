@@ -29,7 +29,7 @@
 111年  
   -  計概11 [時針和分針的夾角](./NCU/111/Angle_Between_Hands_of_Clock.java)  
      -> LeetCode中級[1344.Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)   
-     角度計算方法參考[youtubeu影片](https://www.youtube.com/watch?v=zBCsKSFRRYY&ab_channel=CrackingFAANG)他講得很清楚    
+     角度計算方法參考[youtubeu影片](https://www.youtube.com/watch?v=zBCsKSFRRYY&ab_channel=CrackingFAANG)講得很清楚    
   -  資結8 [Insertion Sort with binary search(c語言)](./NCU/111/Insertion_Sort_with_binary_search.c)
 
 110年
