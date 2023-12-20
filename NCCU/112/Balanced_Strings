@@ -3,7 +3,7 @@ function BSS(s):
     count_R = 0
     num_balanced_strings = 0
 
-    for i = 1 to length(s):
+    for i = 1 to length(s){
         if s[i] == 'L':
             count_L += 1
         else:  //字串只包含L跟R
@@ -11,7 +11,7 @@ function BSS(s):
 
         if count_L == count_R:
             num_balanced_strings += 1
-            count_L = 0
-            count_R = 0
-
+            // count_L和count_R 不需要歸零
+            // 因為題目輸入之s必定為balanced string，前面若有組已平衡(L與R相等)，不影響後續判斷
+     }
     return num_balanced_strings
