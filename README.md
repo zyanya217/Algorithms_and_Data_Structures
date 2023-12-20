@@ -13,11 +13,11 @@
      -> LeetCode(easy) [1221.Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)
      
 111年 
-  -  計概 問答題十 [排序陣列內數字](./NCCU/111/BinaryOneCountSort)
+  -  計概 問答題十 [N是否為2的次方數](./NCCU/111/isPowerofTwo)  
      以該數字轉換為二進位後有多少1來遞增排列
      
 110年 
-  -  計概 問答題八 [N是否為2的次方數](./NCCU/110/isPowerofTwo)  
+  -  計概 問答題八 [排序陣列內數字](./NCCU/110/BinaryOneCountSort)
 ## 成大NCKU
 111年 
   -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
