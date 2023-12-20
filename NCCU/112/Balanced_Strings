@@ -1,0 +1,17 @@
+function BSS(s):
+    count_L = 0
+    count_R = 0
+    num_balanced_strings = 0
+
+    for i = 1 to length(s):
+        if s[i] == 'L':
+            count_L += 1
+        else:  //字串只包含L跟R
+            count_R += 1
+
+        if count_L == count_R:
+            num_balanced_strings += 1
+            count_L = 0
+            count_R = 0
+
+    return num_balanced_strings
