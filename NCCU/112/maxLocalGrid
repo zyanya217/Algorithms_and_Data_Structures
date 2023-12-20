@@ -1,0 +1,16 @@
+function LLV(grid):
+    n = length(grid)
+    m = n - 2
+    maxLocalGrid = new Array(m, m)
+
+    for i = 1 to m:
+        for j = 1 to m:
+            max_value = 0 //初始化
+            for x = i to i + 2:
+                for y = j to j + 2:
+                    if grid[x][y] > max_value:
+                        max_value = grid[x][y]
+
+            maxLocalGrid[i][j] = max_value
+
+    return maxLocalGrid
