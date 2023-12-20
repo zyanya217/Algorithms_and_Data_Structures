@@ -1,0 +1,40 @@
+// 將整數陣列中的每個數字轉換成二進位的方法
+function ToBinary(arr):
+    binaryArr = []  // 創建新的陣列用來裝二進位
+    for i from 0 to length(arr) - 1:
+        binaryStr = Integer.toBinaryString(arr[i])
+        binaryArr.push(binaryStr)  // 添加轉換後的二進位字符串到新陣列
+    return binaryArr  // 返回新陣列
+
+// 計算每個二進位字符串中1的數量的方法
+function countOnes(arr):
+    onesCountArr = []  // 創建新的陣列
+    for each binaryStr in arr:
+        count = 0
+        for each digit in binaryStr:
+            if digit == '1':
+                count = count + 1
+        onesCountArr.push(count)  // 將1的數量添加到新陣列
+    return onesCountArr  // 返回新陣列
+
+// 氣泡排序法(呼叫上面兩個方法)
+function bubbleSort(arr):
+    list binaryArr
+    list onesCountArr
+    n = length(arr)
+    binaryArr = ToBinary(arr) // 將整數陣列轉換成二進位
+    onesCountArr = countOnes(binaryArr) // 計算每個二進位字符串中1的數量
+            
+    for i from 0 to n-1:
+        for j from 1 to n-i-1:
+            if(onesCountArr[j-1] > onesCountArr[j]):  // 如果前一個的1的數量比較多，就跟後面的交換
+                swap(arr[j], arr[j+1])
+            else if(onesCountArr[j-1] == onesCountArr[j]):  // 如果1的數量相等時，比較十進位數字大小
+                if(arr[j-1]>arr[j]):
+                   swap(arr[j], arr[j+1])
+
+function main():
+    arr = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    bubbleSort(arr)
+    for each num in arr: // 輸出排序後的陣列
+        output(num)
