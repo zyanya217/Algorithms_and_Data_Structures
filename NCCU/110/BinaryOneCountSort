@@ -28,10 +28,10 @@ function bubbleSort(arr):
     for i from 0 to n-1:
         for j from 1 to n-i-1:
             if(onesCountArr[j-1] > onesCountArr[j]):  // 如果前一個的1的數量比較多，就跟後面的交換
-                swap(arr[j], arr[j+1])
+                swap(arr[j-1], arr[j])
             else if(onesCountArr[j-1] == onesCountArr[j]):  // 如果1的數量相等時，比較十進位數字大小
                 if(arr[j-1]>arr[j]):
-                   swap(arr[j], arr[j+1])
+                   swap(arr[j-1], arr[j])
 
 function main():
     arr = [0, 1, 2, 3, 4, 5, 6, 7, 8]
