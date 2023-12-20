@@ -4,7 +4,7 @@
 2.  檔案內程式碼是為了回答試卷問題，所以不一定包含完整程式碼，也可能只有一個function
      
 ## 政大NCCU(科技組)
-很愛從LeetCode(easy)找題目 
+很愛從LeetCode(easy)找題目/大部分只要寫虛擬碼
   
 112年 
   -  計概 問答題七 [矩陣最大值](./NCCU/112/maxLocalGrid)  
