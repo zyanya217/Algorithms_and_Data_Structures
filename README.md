@@ -26,7 +26,10 @@
 110年
   -  計概B-7 [用pointer改寫反轉字串](./NCKU/110/ReverseString.cpp)
   -  資結1(b) [歐幾里得演算法](./NCKU/110/euclidean_algorithm.cpp)
-     
+
+109年
+  -  計概B-5 [比N小的質數](./Algorithms/Primes.cpp)
+
 ## 中央NCU
 112年
   -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
