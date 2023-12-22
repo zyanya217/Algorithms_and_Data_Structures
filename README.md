@@ -30,6 +30,7 @@
 109年
   -  計概B-5 [比N小的質數](./Algorithms/Primes.cpp)
   -  資結2. [PriorityQueue](./NCKU/109/PriorityQueue.cpp)
+  -  資結4. [檢查括號平衡](./NCKU/109/parentheses_balanced.cpp)
 
 ## 中央NCU
 112年
