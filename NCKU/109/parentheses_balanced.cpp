@@ -2,7 +2,11 @@
 #include <stack>
 using namespace std;
 
-bool isValidPair(char open, char close);
+bool isValidPair(char open, char close) {
+    return (open == '(' && close == ')') ||
+           (open == '[' && close == ']') ||
+           (open == '{' && close == '}');
+}
 
 bool areBalanced(const string& expression) {
     stack<char> brackets;
@@ -19,12 +23,6 @@ bool areBalanced(const string& expression) {
     }
 
     return brackets.empty();  // 檢查是否有未匹配的開啟括號
-}
-
-bool isValidPair(char open, char close) {
-    return (open == '(' && close == ')') ||
-           (open == '[' && close == ']') ||
-           (open == '{' && close == '}');
 }
 
 int main() {
