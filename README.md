@@ -29,6 +29,7 @@
 
 109年
   -  計概B-5 [比N小的質數](./Algorithms/Primes.cpp)
+  -  資結2. [PriorityQueue](./NCKU/109/PriorityQueue.cpp)
 
 ## 中央NCU
 112年
