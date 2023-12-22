@@ -28,10 +28,6 @@ bool areBalanced(const string& expression) {
 int main() {
     string expression = "{[2 x (a + b)]- c} x 3(d + e)";
     
-    if (areBalanced(expression)) {
-        cout << "括號平衡\n";
-    } else {
-        cout << "括號不平衡\n";
-    }
+    cout << (areBalanced(expression) ? "括號平衡" : "括號不平衡");
     return 0;
 }
