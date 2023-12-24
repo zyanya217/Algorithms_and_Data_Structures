@@ -50,7 +50,7 @@
   -  資結4.(b) [pre/in/post-order traversal(c語言)](./NCU/110/traversal.c)    
 
 109年
-  -  計概11 [迴文](./NCU/109/Palindrome.java)  
+  -  計概11 [回文](./NCU/109/Palindrome.java)  
      以recursion改寫題目給的迴文java程式碼
   -  資結6.(a) [河內塔(c語言)](./NCU/109/hanoi.c)
   
