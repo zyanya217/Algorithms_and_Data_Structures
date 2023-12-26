@@ -6,7 +6,8 @@
   
 ## 台大NTU  
 111年 
-  -  計概 非選題 [hash table](./NTU/111/hash_table.cpp) 
+  -  計概 非選題 [hash table](./NTU/111/hash_table.cpp)  
+     用鏈結法(Chaining)處理碰撞問題  
      
 ## 政大NCCU(科技組)
 很愛從LeetCode(easy)找題目/大部分只要寫虛擬碼
