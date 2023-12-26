@@ -1,40 +1,82 @@
-/* 第一題 */
- void insertStudent(int sID, const string& sName, const string& sDept) {
-   
-        // 取ID最後三碼(因為ID可能很長)，再與hash table的大小取mod
-        int key = (sID % 1000) % HASH_TABLE_SIZE;    
-        ChainStudentNode* newStudent = new ChainStudentNode(sID, sName, sDept);  // 創建新的學生節點
+#include<iostream>
+using namespace std;
 
-        // 插入到hash table的特定位置
-        if (table[key] == nullptr) {
-            // 如果位置是空的，直接插入新學生節點
-            table[key] = newStudent;
-        } else {
-            // 如果位置已經有學生，將新學生節點插入到鏈表的頭部
-            newStudent->next = table[key];
-            table[key] = newStudent;
-        }
- }
+/* 題目給的: */
+class ChainStudentNode {
+private:
+    int studentID;
+    string name;
+    string dept;
+    ChainStudentNode* next;
+    friend class StudentHashTable;
+};
+
+class StudentHashTable {
+public:
+    void insertStudent(int sID, const string& sName, const string& sDept);
+    string retrieveName(int sID);
+
+protected:
+    int hashIndex(int sID);
+
+private:
+    static const int HashTableSize = 101;
+    ChainStudentNode* table[HashTableSize];
+};
+/////////////////////////////////////////////////////////////////////////////////////////
+
+/* 第一題 */
+void StudentHashTable::insertStudent(int sID, const string& sName, const string& sDept) {
+ 
+    int index = hashIndex(sID);
+
+    // 創造一個新學生 node
+    ChainStudentNode* newStudent = new ChainStudentNode();
+    newStudent->studentID = sID;
+    newStudent->name = sName;
+    newStudent->dept = sDept;
+    newStudent->next = nullptr;
+
+    // 插入到 hash table 的特定位置
+    if (table[index] == nullptr) {
+        // 如果位置是空的，直接插入新學生節點
+        table[index] = newStudent;
+    } else {
+        // 如果位置已經有學生，將新學生節點插入到鏈表的頭部
+        newStudent->next = table[index];
+        table[index] = newStudent;
+    }
+}
 
 /* 第二題 */
-string retrieveName(int sID) {
-    // 先找學生ID在hash table中的位置
-    int key = (sID % 1000) % HASH_TABLE_SIZE;
+string StudentHashTable::retrieveName(int sID) {
+    int index = hashIndex(sID); // 先找學生 ID 在 hash table 中的位置
 
-    // 在該位置的鏈結中尋找學生ID
-    ChainStudentNode* current = table[key];
+    // 在該位置的鏈結中尋找學生 ID
+    ChainStudentNode* current = table[index];
     while (current != nullptr) {
-        // 如果學生ID匹配，返回學生的名字
+        // 如果學生 ID 匹配，返回學生的名字
         if (current->studentID == sID) {
             return current->name;
         }
         current = current->next;
     }
-    return NULL; // 如果未找到匹配的學生，返回空字符串
+    return ""; // 如果未找到匹配的學生，返回空字符串 //不可回傳NULL。因為NULL是一個指標型的空值，這個Function的返回型態是string
 }
 
 /* 第三題 */
-int hashIndex(int sID) {
-    int key = sID % 1000;
-    return key;
+int StudentHashTable::hashIndex(int sID) {
+    sID = (sID % 1000) % HashTableSize;
+    return sID;
+}
+
+// 測試用
+int main() {
+    StudentHashTable a;
+
+    a.insertStudent(20, "danny", "MEM");
+    a.insertStudent(121, "anita", "BM");
+    cout << a.retrieveName(121);
+
+    return 0;
 }
