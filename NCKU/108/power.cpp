@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-// 定義計算 x^n 的快速指數算法
+// 定義計算 x^n 的快速指數算法(或稱快速冪、平方求冪)
 int myPow(int x, int n) {
-        // 如果 n 的二進制表示的最低位為 1
+        // 如果 n 的最低位為 1
         if (n % 2 == 1) {
             result *= x; // 將結果乘以當前的底數 x
         }
