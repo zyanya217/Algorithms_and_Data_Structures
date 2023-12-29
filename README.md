@@ -41,6 +41,7 @@
 
 108年
   -  計概B-1 [是否為質數(遞迴版)](./NCKU/108/Primes_recursive.cpp)
+  -  計概B-4(b) [兩顆八面骰](./NCKU/108/two_8sidedDice.cpp)
 
 ## 中央NCU
 112年
