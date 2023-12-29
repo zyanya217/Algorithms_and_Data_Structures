@@ -26,6 +26,7 @@
 110年 
   -  計概 問答題八 [排序陣列內數字](./NCCU/110/BinaryOneCountSort)
 ## 成大NCKU
+
 111年 
   -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
   -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 時間複雜度必須O(n)
@@ -42,7 +43,8 @@
 108年
   -  計概B-1 [是否為質數(遞迴版)](./NCKU/108/Primes_recursive.cpp)
   -  計概B-4(b) [兩顆八面骰](./NCKU/108/two_8sidedDice.cpp)
-
+  -  資結2. [計算x^n](./NCKU/108/power.cpp) 必須最小化乘法次數  
+     -> LeetCode(medium) [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)  
 ## 中央NCU
 112年
   -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
@@ -81,7 +83,7 @@
      (這用c++不好寫所以用python) 
 
 ## 結語
-本人沒補習 受到許多網路上提供免費考研資源與文章的幫助  
+<samp>本人沒補習 受到許多網路上提供免費考研資源與文章的幫助  
 希望這些也能幫助到未來要考資管所的人  
 以上皆為自己打的，若內容有問題歡迎與我聯繫修正  
 祝福大家都能上理想的學校~~ଘ(੭ˊᵕˋ)੭* ੈ✩‧₊˚
