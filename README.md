@@ -38,6 +38,9 @@
   -  資結2. [PriorityQueue](./NCKU/109/PriorityQueue.cpp)
   -  資結4. [檢查括號平衡](./NCKU/109/parentheses_balanced.cpp)
 
+108年
+  -  計概B-1 [是否為質數(遞迴版)](./NCKU/108/Primes_recursive.cpp)
+
 ## 中央NCU
 112年
   -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
