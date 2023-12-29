@@ -1,9 +1,10 @@
 # Data_Structures(& Algorithms)
-⚠️  
-1.  答案僅供參考
-2.  完整程式碼有用線上編譯器測試過可執行
-3.  檔案內程式碼是為了回答試卷問題，所以有些檔案不包含完整程式碼(可能只有局部或虛擬碼)
-4.  有些學校不是每年都有考寫程式題
+⚠️   
+<samp> 1. 答案僅供參考  
+2. 完整程式碼有用線上編譯器測試過可執行  
+3. 檔案內程式碼是為了回答試卷問題，所以有些檔案不包含完整程式碼(可能只有局部或虛擬碼)  
+4. 有些學校不是每年都有考寫程式題  
+</samp>
   
 ## 台大NTU  
 111年 
@@ -43,8 +44,9 @@
 108年
   -  計概B-1 [是否為質數(遞迴版)](./NCKU/108/Primes_recursive.cpp)
   -  計概B-4(b) [兩顆八面骰](./NCKU/108/two_8sidedDice.cpp)
-  -  資結2. [計算x^n](./NCKU/108/power.cpp) 必須最小化乘法次數  
-     -> LeetCode(medium) [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)  
+  -  資結2. [計算x^n](./NCKU/108/power.cpp) : 必須最小化乘法次數 / x和n都是正整數    
+     -> LeetCode(medium) [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) 比較難但可參考其解法 
+     
 ## 中央NCU
 112年
   -  資結3.(a) [費氏數列(遞迴版)](./NCU/112/fibonacci_recursive.cpp)
