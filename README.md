@@ -28,7 +28,7 @@
 ## 成大NCKU
 111年 
   -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
-  -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 必須O(n) time
+  -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 時間複雜度必須O(n)
 
 110年
   -  計概B-7 [用pointer改寫反轉字串](./NCKU/110/ReverseString.cpp)
