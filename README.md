@@ -27,6 +27,8 @@
 
 109年 
   -  計概 問答題2. [scores資料表排名(sql語法)](./NCCU/109/scores_rank.sql)
+  -  計概 問答題6. [strstr()](./NCCU/109/strstr.cpp)
+  -  計概 問答題7. [判斷是否為2的次方數](./NCCU/109/isPowerOfTwo.cpp)
 
 ## 成大NCKU
 
