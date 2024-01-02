@@ -24,6 +24,10 @@
      
 110年 
   -  計概 問答題八 [排序陣列內數字](./NCCU/110/BinaryOneCountSort)
+
+109年 
+  -  計概 問答題2. [scores資料表排名(sql語法)](./NCCU/109/scores_rank.sql)
+
 ## 成大NCKU
 
 111年 
