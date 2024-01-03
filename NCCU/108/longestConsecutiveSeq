@@ -1,0 +1,25 @@
+Function longestConsecutiveSeq(arr):
+
+    // 若陣列為空，回傳一個空序列
+    If  arr.empty()
+        return empty seq
+
+    Sort arr  //排序陣列
+    longestSeq = [arr[0]] // 裝目前找到的最長連續序列
+    currentSeq = [arr[0]] // 追蹤目前正在檢查的連續序列
+
+    For i = 1 to arr.size()-1 :
+        If arr[i] is equal to arr[i-1] + 1:
+            // 若 arr[i] 與前一元素相差 1
+            Add arr[i] to currentSeq
+        else:
+            // 檢查目前序列是否比最長序列長
+            If currentSeq.size() > longestSeq.size() :
+                longestSeq = currentSeq
+            // 重設目前序列為 [arr[i]]
+            currentSeq = [arr[i]]
+
+    If currentSeq.size() > longestSeq.size():
+         longestSeq = currentSeq
+
+    return longestSeq
