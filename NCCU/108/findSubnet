@@ -1,0 +1,21 @@
+Function generatePowerSet(S):
+    n = S.size()
+    powerSet = emptySet()
+
+    // 定義一個遞迴函式
+    Function generateSubsets(currentIndex, currentSubset):
+        // 將目前子集加入到 powerSet
+        powerSet.add(currentSubset)
+
+        // 從當前索引到n-1，生成所有可能的子集合
+        for i = currentIndex to n-1:
+            // 將 S[i] 加入當前子集
+            currentSubset.add(S[i])
+            generateSubsets(i + 1, currentSubset)
+            // 移除最後一個元素，以生成其他可能的子集
+            currentSubset.removeLast()
+
+    // 初始呼叫遞迴函式，當前索引為 0，當前子集為空集
+    generateSubsets(0, emptySet)
+
+    return powerSet
