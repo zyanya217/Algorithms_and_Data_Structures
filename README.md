@@ -30,6 +30,10 @@
   -  計概 問答題6. [strstr()](./NCCU/109/strstr.cpp)
   -  計概 問答題7. 判斷是否為2的次方數: [迴圈版](./NCCU/109/isPowerOfTwo_Iteration.cpp)，[遞迴版](./NCCU/109/isPowerOfTwo_Recursive.cpp)，[非迴圈非遞迴版](./NCCU/109/isPowerOfTwo.cpp)
 
+109年 
+  -  計概 問答題5. [十進位轉16進位](./NCCU/108/Dec_to_Hex.cpp)
+  -  計概 問答題7. [unsorted array中找最長連續序列](./NCCU/108/longestConsecutiveSequence)
+
 ## 成大NCKU
 
 111年 
