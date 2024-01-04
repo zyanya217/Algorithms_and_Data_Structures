@@ -36,8 +36,8 @@
   -  計概 問答題7. [unsorted array中找最長連續序列(虛擬碼)](./NCCU/108/longestConsecutiveSeq)
   -  資結 問答題1.2 [計算指定節點的值(虛擬碼)](./NCCU/108/evaluateExpression)
   -  資結 問答題1.3 [Expression Tree變算式(虛擬碼)](./NCCU/108/printExpression)
-  -  資結 問答題3.1 [集合中找子集合(虛擬碼)](./NCCU/108/IterativeAverage)
-  -  資結 問答題3.2 [集合中找子集合(虛擬碼)](./NCCU/108/MergeAverage)
+  -  資結 問答題3.1 [array內指定範圍的平均數(虛擬碼)](./NCCU/108/IterativeAverage)
+  -  資結 問答題3.2 [用Merge的方式找平均數(虛擬碼)](./NCCU/108/MergeAverage)
 
 ## 成大NCKU
 
