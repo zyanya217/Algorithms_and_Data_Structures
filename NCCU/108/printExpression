@@ -1,0 +1,19 @@
+/* 題目:
+Algorithm: printExpression(T, v) 
+Input: A binary tree T and a node v in T
+*/
+
+if v is null 
+   return 0
+
+print "("  
+
+if v is not a leaf
+   printExpression(T, v.left)
+
+print v.value
+
+if v is not a leaf 
+   printExpression(T, v.right)
+ 
+print ")"
