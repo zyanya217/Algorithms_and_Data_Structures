@@ -3,7 +3,6 @@ Algorithm IterativeAverage(A, i, j):
 Input: an array A and starting index i and end index j  
 Output: The average of (j-i+1) integers in A (starting from index i up to index j (included))
 */ 
-//Time Complexity: O(n)
 
 sum = 0
 n = j - i + 1
@@ -16,3 +15,5 @@ if n > 0:  // 檢查 n 是否大於零
 else:
     print "範圍是空的，無法計算平均值" 
     return 0 
+
+// Time Complexity: O(n)
