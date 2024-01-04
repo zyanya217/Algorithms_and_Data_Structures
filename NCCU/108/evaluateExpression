@@ -1,0 +1,20 @@
+/*  題目:
+Algorithm: evaluateExpression(T, v)
+Input: A binary tree T and a node v in T 
+Output: the value of v 
+*/
+
+if v is a leaf node 
+   return v.value
+
+left = evaluateExpression(T, v.left)
+right = evaluateExpression(T, v.right)
+
+if v.operator is '+' 
+  return left + right 
+if v.operator is '-'
+  return left - right
+if v.operator is '*' 
+  return left * right
+if v.operator is '/'
+  return left / right
