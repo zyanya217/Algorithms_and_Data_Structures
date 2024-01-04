@@ -2,7 +2,7 @@
 ⚠️   
 <samp> 1. 答案僅供參考  
 2. 完整程式碼有用線上編譯器測試過可執行  
-3. 檔案內程式碼是為了回答試卷問題，所以有些檔案不包含完整程式碼(可能只有局部或虛擬碼)  
+3. 檔案內程式碼是為了回答試卷問題，所以有些檔案不包含完整程式碼(可能只有局部程式或pseudo code)  
 4. 有些學校不是每年都有考寫程式題  
 </samp>
   
@@ -11,7 +11,7 @@
   -  計概 非選題 [hash table](./NTU/111/hash_table.cpp) : 用鏈結法(Chaining)處理碰撞問題  
      
 ## 政大NCCU(科技組)
-大部分只要寫虛擬碼
+大部分只要寫pseudo code
   
 112年 
   -  計概 問答題七 [矩陣最大值](./NCCU/112/maxLocalGrid)  
@@ -32,17 +32,17 @@
 
 108年 
   -  計概 問答題5. [十進位轉16進位](./NCCU/108/Dec_to_Hex.cpp)
-  -  計概 問答題6. [集合中找子集合(虛擬碼)](./NCCU/108/findSubnet)
-  -  計概 問答題7. [unsorted array中找最長連續序列(虛擬碼)](./NCCU/108/longestConsecutiveSeq)
-  -  資結 問答題1.2 [計算指定節點的值(虛擬碼)](./NCCU/108/evaluateExpression)
-  -  資結 問答題1.3 [Expression Tree變算式(虛擬碼)](./NCCU/108/printExpression)
-  -  資結 問答題3.1 [array內指定範圍的平均數(虛擬碼)](./NCCU/108/IterativeAverage)
-  -  資結 問答題3.2 [用Merge的方式找平均數(虛擬碼)](./NCCU/108/MergeAverage)
+  -  計概 問答題6. [集合中找子集合(pseudo code)](./NCCU/108/findSubnet)
+  -  計概 問答題7. [unsorted array中找最長連續序列(pseudo code)](./NCCU/108/longestConsecutiveSeq)
+  -  資結 問答題1.2 [計算指定節點的值(pseudo code)](./NCCU/108/evaluateExpression)
+  -  資結 問答題1.3 [Expression Tree變算式(pseudo code)](./NCCU/108/printExpression)
+  -  資結 問答題3.1 [array內指定範圍的平均數(pseudo code)](./NCCU/108/IterativeAverage)
+  -  資結 問答題3.2 [用Merge的方式找平均數(pseudo code)](./NCCU/108/MergeAverage)
 
 ## 成大NCKU
 
 111年 
-  -  計概A-2(三) [二元搜尋(遞迴版/虛擬碼)](./NCKU/111/binary_search_recursive)
+  -  計概A-2(三) [二元搜尋(遞迴版/pseudo code)](./NCKU/111/binary_search_recursive)
   -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 時間複雜度必須O(n)
 
 110年
