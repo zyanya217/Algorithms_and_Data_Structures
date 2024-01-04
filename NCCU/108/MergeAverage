@@ -16,4 +16,5 @@ avg = (left_avg + right_avg) / 2  // 簡易版
 //avg = (left_avg * (mid - i + 1) + right_avg * (j - mid)) / (j - i + 1)  // 精確版:計算兩個區間的加權平均值
 
 return avg
+
 // Time Complexity: O(log n)
