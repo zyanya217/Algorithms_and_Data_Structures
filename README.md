@@ -34,6 +34,9 @@
   -  計概 問答題5. [十進位轉16進位](./NCCU/108/Dec_to_Hex.cpp)
   -  計概 問答題6. [集合中找子集合(虛擬碼)](./NCCU/108/findSubnet)
   -  計概 問答題7. [unsorted array中找最長連續序列(虛擬碼)](./NCCU/108/longestConsecutiveSeq)
+  -  資結 問答題1.2 [計算指定節點的值(虛擬碼)](./NCCU/108/evaluateExpression)
+  -  資結 問答題1.3 [集合中找子集合(虛擬碼)](./NCCU/108/printExpression)
+  -  資結 問答題3 [集合中找子集合(虛擬碼)](./NCCU/108/findSubnet)
 
 ## 成大NCKU
 
