@@ -1,0 +1,18 @@
+/* 題目:
+Algorithm MergeAverage(A, i, j):
+Input: A[] array, index i, index j
+Output: Average of A[i] to A[j]
+*/
+
+if i == j:
+   return A[i]
+
+mid = (i + j) / 2
+
+left_avg = MergeAverage(A, i, mid)
+right_avg = MergeAverage(A, mid + 1, j)
+
+avg = (left_avg + right_avg) / 2  // 簡易版
+//avg = (left_avg * (mid - i + 1) + right_avg * (j - mid)) / (j - i + 1)  // 精確版:計算兩個區間的加權平均值
+
+return avg
