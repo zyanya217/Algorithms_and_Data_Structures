@@ -53,7 +53,7 @@ def binarySearch(sortedArray, target):
 
     return False  # 未找到元素
 
-# 範例使用
+# 測試
 array1 = [1, 2, 3, 4, 5]
 array2 = [6, 7, 8]
 
