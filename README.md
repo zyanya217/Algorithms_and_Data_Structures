@@ -85,7 +85,8 @@
   -  資結4 [陣列中的第k小值](./NCU/108/the_kth_smallest_in_array.c) : c語言/非遞迴/不可排序    
      
 ## 中山NSYSU
-很少考寫程式
+111年
+  -  資結2 [判斷兩陣列中無相同元素(pseudo code)](./NSYSU/111/noCommonElements) :時間複雜度O(nlogm)內
 
 110年
   -  資結5.(B) [反轉矩陣](./NSYSU/110/reverseArray.cpp)
