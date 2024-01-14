@@ -86,7 +86,7 @@
      
 ## 中山NSYSU
 111年
-  -  資結2 [判斷兩陣列中無相同元素(pseudo code)](./NSYSU/111/noCommonElements) :時間複雜度O(nlogm)內
+  -  資結2 [判斷兩陣列中無相同元素](./NSYSU/111/noCommonElements.py) :時間複雜度O(nlogm)內
 
 110年
   -  資結5.(B) [反轉矩陣](./NSYSU/110/reverseArray.cpp)
