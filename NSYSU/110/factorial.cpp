@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int factorial(int n) {
@@ -14,8 +13,7 @@ int main() {
     if (n < 0) {
         cout << "Factorial is not defined for negative numbers." << endl;
     } else {
-        int result = factorial(n);
-        cout << n << "! = " << result << endl;
+        cout << n << "! = " << factorial(n) << endl;
     }
 
     return 0;
