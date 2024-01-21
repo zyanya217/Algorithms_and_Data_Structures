@@ -40,8 +40,8 @@
   -  資結 問答題3.2 [用Merge的方式找平均數(pseudo code)](./NCCU/108/MergeAverage)
 
 ## 成大NCKU
-
 111年 
+  -  計概A-2(二) [檢索某導演的所有影片資訊](./NCKU/111/Retrieve_videoInfo.py) with SQL queries
   -  計概A-2(三) [二元搜尋(遞迴版/pseudo code)](./NCKU/111/binary_search_recursive)
   -  資結A-3 [負數0正數排序](./NCKU/111/rearrangeArray.cpp) 時間複雜度必須O(n)
 
