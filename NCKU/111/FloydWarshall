@@ -1,0 +1,26 @@
+# Input: 具有n個頂點和由矩陣W表示的加權邊的圖G
+# Output: 表示所有頂點對之間最短路徑的矩陣D
+
+procedure FloydWarshall(W):
+    n = number of vertices in G
+    D = initialize a matrix of size n x n to represent the shortest paths
+    
+    # 初始化D矩陣: 相鄰頂點填入連接邊的權重，而對於不相鄰的頂點權重設為無窮大
+    for i from 1 to n:
+        for j from 1 to n:
+            if i equals j:
+                D[i][j] = 0
+            else if edge (i, j) exists in G:
+                D[i][j] = weight of edge (i, j)
+            else:
+                D[i][j] = infinity
+
+    # Main algorithm
+    for k from 1 to n:
+        for i from 1 to n:
+            for j from 1 to n:
+                #  如果 i -> k -> j 的路徑比目前已知的 i -> j 的路徑更短，就替換掉原來路徑
+                if D[i][k] + D[k][j] < D[i][j]:
+                    D[i][j] = D[i][k] + D[k][j]
+
+    return D
