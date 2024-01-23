@@ -50,7 +50,7 @@
 110年
   -  計概B-7 [用pointer改寫反轉字串](./NCKU/110/ReverseString.cpp)
   -  資結1(b) [歐幾里得演算法](./NCKU/110/euclidean_algorithm.cpp)
-  -  資結3 [兩sorted linked list的集合差](./NCKU/110/list_difference)
+  -  資結3 [兩sorted linked list的集合差](./NCKU/110/list_difference.py)
     
 109年
   -  計概B-5 [比N小的質數](./Algorithms/Primes.cpp)
