@@ -8,7 +8,7 @@ int main() {
     const int size = 8;
     int freq[size + 1][size + 1] = {}; 
     
-    srand((time(0))); // 使用系统時間設置隨機數生成器的種子
+    srand(time(0)); // 使用系统時間設置隨機數生成器的種子
 
     // 擲骰子並記錄次數
     for (int roll = 1; roll <= 100 ; roll++) {
