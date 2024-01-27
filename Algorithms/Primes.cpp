@@ -5,15 +5,16 @@ The user inputs a value and the program outputs its prime number.
 #include <iostream>
 using namespace std;
 
-const int MAX_LEN = 10000;
-
-void ruleOutPrime(int x,bool isPrime[], int n);
+void ruleOutPrime(int x,bool isPrime[], int n)
+{
+	for(int i = 1; x * i < n; i++)
+	isPrime[x * i] = false ;
+}
 
 int main()
 {
 	int n = 0;
-	cin >> n; //must <10000
-	bool isPrime[MAX_LEN] = {0};	
+	cin >> n;	
 	for(int i = 0; i < n; i++)
 		isPrime[i] = true;
 		
@@ -26,10 +27,4 @@ int main()
 		}
 	}
 	return 0;
-}
-
-void ruleOutPrime(int x,bool isPrime[], int n)
-{
-	for(int i = 1; x * i < n; i++)
-	isPrime[x * i] = false ;
 }
