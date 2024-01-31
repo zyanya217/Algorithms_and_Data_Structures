@@ -1,12 +1,8 @@
 #include <iostream>
 using namespace std;
 
-typedef int index;
-typedef int keytype; 
-
-void InsertionSort(int n, keytype S[]) {
-    index i, j;
-    keytype x;
+void InsertionSort(int n, int S[]) {
+    int i, j, x;
 
     for (i = 1; i <= n; i++) {
         x = S[i];
@@ -20,11 +16,11 @@ void InsertionSort(int n, keytype S[]) {
 }
 
 int main() {
-    keytype arr[] = {5, 2, 9, 1, 5, 6};
-    index size = sizeof(arr) / sizeof(arr[0]);
+    int arr[] = {5, 2, 9, 1, 5, 6};
+    int size = sizeof(arr) / sizeof(arr[0]);
     InsertionSort(size - 1, arr);
     cout << "排序後的陣列: ";
-    for (index i = 0; i < size; ++i) {
+    for (int i = 0; i < size; ++i) {
         cout << arr[i] << " ";
     }
     return 0;
