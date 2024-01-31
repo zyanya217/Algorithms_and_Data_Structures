@@ -34,9 +34,7 @@ void QuickSort(int list[], int m, int n) {
 int main() {
     int arr[] = {5, 2, 9, 1, 5, 6};
     int size = sizeof(arr) / sizeof(arr[0]);
-
     QuickSort(arr, 0, size - 2);
-
     cout << "排序後的陣列: ";
     for (int i = 0; i < size - 1; ++i) {
         cout << arr[i] << " ";
