@@ -13,8 +13,8 @@ void merge(index low, index mid, index high, keytype S[]) {
 
     i = low; j = mid + 1; k = 0;
   
-  // S 陣列 : i在左半部從low到mid，j在右半部從mid+1到high
-  // U 陣列 : k從low開始跑，陸續i與j比較結果依序填入
+  // S 陣列中 i在左半部從low到mid，j在右半部從mid+1到high
+  // U 陣列中 k從low開始跑，陸續i與j比較結果依序填入
 
     while (i <= mid && j <= high) {
         if (S[i] <= S[j]) {
@@ -26,19 +26,16 @@ void merge(index low, index mid, index high, keytype S[]) {
         }
         k++;
     }
-
     while (i <= mid) {
         U[k] = S[i];
         i++;
         k++;
     }
-
     while (j <= high) {
         U[k] = S[j];
         j++;
         k++;
     }
-
     for (index x = 0; x < k; x++) {
         S[low + x] = U[x];
     }
@@ -56,9 +53,7 @@ void mergeSort(index low, index high, keytype S[]) {
 int main() {
     keytype arr[] = {5, 2, 9, 1, 5, 6};
     index size = sizeof(arr) / sizeof(arr[0]);
-
     mergeSort(0, size - 1, arr);
-
     cout << "排序後的陣列: ";
     for (index i = 0; i < size; ++i) {
         cout << arr[i] << " ";
