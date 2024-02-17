@@ -97,8 +97,7 @@
   -  資結6.(E) [用BFS在graph搜索](./NSYSU/110/bfs_graph.py) : find all connected components of graph -> DFS或BFS 
 
 ## 結語
-<samp>
-受到許多網路上提供免費考研資源與文章的幫助    
+<samp>受到許多網路上提供免費考研資源與文章的幫助    
 希望這些也能幫助到未來要考資管所的人    
 以上皆為自己打的，若內容有問題歡迎與我聯繫修正    
 祝福大家都能上理想的學校~~ଘ(੭ˊᵕˋ)੭* ੈ✩‧₊˚
